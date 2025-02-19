@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  width: 50%;
+  text-align: center;
+  justify-self: center;
+  margin-top: 10px;
+}
+
+h3 {
+  font-family: "Poppins";
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
+  width: 50%;
+  text-align: center;
+  justify-self: center;
+  margin-top: 10px;
+}
+
+button {
+  cursor: pointer;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header {
+  background: #333;
+  color: #fff;
+  padding: 15px 0;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 50;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.747);
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav ul li {
+  margin-left: 20px;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.cart-container {
+  display: flex;
+  padding-left: 20px;
+  justify-content: center;
+  align-content: center;
+}
+
+.shopping-cart {
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.filter-box-container {
+  display: flex;
+  margin-top: 64px;
+  height: 90px;
+  width: 100vw;
+  background-color: #333;
+}
+
+.filter-box-container {
+  display: flex;
+  color: white;
+  width: 100%;
+  justify-content: end;
+}
+
+.filter-symbol {
+  align-self: center;
+  margin-right: 48px;
+  cursor: pointer;
+}
+
+.rany-days-logo-container {
+  justify-self: center;
+  margin-top: 150px;
+  width: 50%;
+}
+
+.rany-days-logo {
+  width: 100%;
+  object-fit: cover;
+}
+
+.grid-for-products {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-self: center;
+  margin-top: 150px;
+  grid-template-rows: auto;
+  row-gap: 200px;
+}
+
+.product-information{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+.moto-jacket-wrap {
+  text-align: center;
+  width: auto;
+  height: auto;
+}
+
+.moto-jacket-1 {
+  object-fit: cover;
+  width: 50%;
+}
+
+.jacket-info {
+  text-align: center;
+  justify-self: center;
+  align-self: center;
+}
+
+.add-to-cart {
+  text-align: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.add-to-cart-button {
+  justify-self: center;
+  font-family: poppins;
+  padding: 10px;
+  color: white;
+  background-color: #333;
+  border: none;
+  border-radius: 10px;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 300px;
+}
