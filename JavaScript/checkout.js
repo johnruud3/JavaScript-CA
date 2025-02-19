@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
           updateCart(); 
           displayCart(); 
 
-          window.location.href = "../confirmation-site.html"; 
+          window.location.href = "..confirmation-site.html"; 
       });
   }
 });
