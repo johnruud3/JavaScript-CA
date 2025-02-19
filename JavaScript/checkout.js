@@ -11,7 +11,8 @@ document.addEventListener("DOMContentLoaded", () => {
           updateCart(); 
           displayCart(); 
 
-          window.location.href = "..confirmation-site.html"; 
+          window.location.href = "https://johnruud3.github.io/JavaScript-CA/confirmation-site.html";
+
       });
   }
 });
